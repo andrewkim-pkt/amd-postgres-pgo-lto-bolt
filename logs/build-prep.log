@@ -1,0 +1,33 @@
+=== pg-build prep 2026-11-08T23:58:14Z
+    prefix=/opt/g15-pg18-prep
+    src=/home/ec2-user/g15/pgsrc-prep (reuse=0)
+    CFLAGS=-O3 -march=native -mtune=native -g
+    LDFLAGS=-Wl,-q
+    XLOGLOCKS=<stock 8>
+gcc (GCC) 15.2.0
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wcast-function-type -Wshadow=compatible-local -Wformat-security -Wmissing-variable-declarations -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -O3 -march=native -mtune=native -g
+CFLAGS_SL = -fPIC
+CFLAGS_SL_MODULE =  -fvisibility=hidden
+CFLAGS_UNROLL_LOOPS =  -funroll-loops
+--- gates for prep
+-rwxr-xr-x. 1 root root 120433296 Nov  8 23:58 /opt/g15-pg18-prep/bin/postgres
+postgres (PostgreSQL) 18.3
+    source rev/tree     : 62d6c7d3df eacca3d098ca35d9cbc7705a290583135faa3b79  (REL_18_3 from /home/ec2-user/postgres)
+    md5                 : 3c53080c6538
+    .debug_info        : 1
+    .debug_line        : 1
+    .rela.text         : 1
+    .text bytes        : 7185250
+    -g in build log    : 1370
+    auto-profile in log: 0
+    profile-use in log : 0
+    profile-gen in log : 0
+    lto in log         : 0
+    WAL insert locks   : NUM_XLOGINSERT_LOCKS  8
+    missing-profile warns: 0
+    not-bolted         : OK
+    no-instrumentation : OK
+    prefix clean       : OK (no gcov syms anywhere in /opt/g15-pg18-prep)
+    flag  -g : OK (1370 lines)
+    smoke              : OK (rows=1000)
+=== pg-build prep done 2026-11-08T23:58:42Z

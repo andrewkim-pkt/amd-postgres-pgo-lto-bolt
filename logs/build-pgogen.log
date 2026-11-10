@@ -1,0 +1,35 @@
+=== pg-build pgogen 2026-11-08T23:58:14Z
+    prefix=/opt/g15-pg18-pgogen
+    src=/home/ec2-user/g15/pgsrc-pgo (reuse=0)
+    CFLAGS=-O3 -march=native -mtune=native -fprofile-generate -fprofile-update=prefer-atomic
+    LDFLAGS=-fprofile-generate
+    XLOGLOCKS=<stock 8>
+gcc (GCC) 15.2.0
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wcast-function-type -Wshadow=compatible-local -Wformat-security -Wmissing-variable-declarations -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -O3 -march=native -mtune=native -fprofile-generate -fprofile-update=prefer-atomic
+CFLAGS_SL = -fPIC
+CFLAGS_SL_MODULE =  -fvisibility=hidden
+CFLAGS_UNROLL_LOOPS =  -funroll-loops
+--- gates for pgogen
+-rwxr-xr-x. 1 root root 21067688 Nov  8 23:58 /opt/g15-pg18-pgogen/bin/postgres
+postgres (PostgreSQL) 18.3
+    source rev/tree     : 62d6c7d3df eacca3d098ca35d9cbc7705a290583135faa3b79  (REL_18_3 from /home/ec2-user/postgres)
+    md5                 : aef7412c51d0
+    .debug_info        : 1
+    .debug_line        : 1
+    .rela.text         : 0
+    .text bytes        : 10474962
+    -g in build log    : 0
+    auto-profile in log: 0
+    profile-use in log : 0
+    profile-gen in log : 1370
+    lto in log         : 0
+    WAL insert locks   : NUM_XLOGINSERT_LOCKS  8
+    missing-profile warns: 0
+    not-bolted         : OK
+    instrumented       : OK (59300 gcov syms)
+    instrumented prefix: 31 files carry gcov syms (expected for pgogen)
+    flag -fprofile-generate: OK (1370 lines)
+    smoke              : OK (rows=1000)
+    .gcda left in tree by the BUILD: 850
+    ^ pg-train.sh must delete these first -- build-tool counters are not training data
+=== pg-build pgogen done 2026-11-08T23:58:43Z

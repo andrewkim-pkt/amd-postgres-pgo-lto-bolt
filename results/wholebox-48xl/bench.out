@@ -1,0 +1,138 @@
+client ulimit -n = 65535  rampup(adaptive)=32:2 64:2 128:3 256:4 512:6 1024:10 duration=3m
+=== 01-base /opt/g15-pg18-base 2026-11-09T06:25:08Z
+[06:25:09] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m49.035s 
+server started
+[06:25:59] started /opt/g15-pg18-base md5=8a6f660c783d
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 13609
+  pid 13609's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  8a6f660c783dff61daccfd007d1f0c67  /opt/g15-pg18-base/bin/postgres
+  Cpus_allowed_list:	0-191
+  01-base 32 VU rampup=2m logged_in=32: System achieved 664213 NOPM from 1529400 PostgreSQL TPM  (error lines: 0)
+  01-base 64 VU rampup=2m logged_in=64: System achieved 1192321 NOPM from 2742124 PostgreSQL TPM  (error lines: 0)
+  01-base 128 VU rampup=3m logged_in=128: System achieved 2241317 NOPM from 5158841 PostgreSQL TPM  (error lines: 0)
+  01-base 256 VU rampup=4m logged_in=256: System achieved 2293996 NOPM from 5270525 PostgreSQL TPM  (error lines: 0)
+  01-base 512 VU rampup=6m logged_in=512: System achieved 2214894 NOPM from 5094219 PostgreSQL TPM  (error lines: 0)
+  01-base 1024 VU rampup=10m logged_in=1024: System achieved 2043619 NOPM from 4704234 PostgreSQL TPM  (error lines: 0)
+[07:11:59] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 02-afdoltob /opt/g15-pg18-afdoltob 2026-11-09T07:11:59Z
+[07:12:19] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m43.992s 
+server started
+[07:13:04] started /opt/g15-pg18-afdoltob md5=5d576b3db66e
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 18488
+  pid 18488's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  5d576b3db66e8457bc6c960841772db7  /opt/g15-pg18-afdoltob/bin/postgres
+  Cpus_allowed_list:	0-191
+  02-afdoltob 32 VU rampup=2m logged_in=32: System achieved 687914 NOPM from 1582242 PostgreSQL TPM  (error lines: 0)
+  02-afdoltob 64 VU rampup=2m logged_in=64: System achieved 1241529 NOPM from 2858056 PostgreSQL TPM  (error lines: 0)
+  02-afdoltob 128 VU rampup=3m logged_in=128: System achieved 2338149 NOPM from 5382134 PostgreSQL TPM  (error lines: 0)
+  02-afdoltob 256 VU rampup=4m logged_in=256: System achieved 2293212 NOPM from 5269951 PostgreSQL TPM  (error lines: 0)
+  02-afdoltob 512 VU rampup=6m logged_in=512: System achieved 2288648 NOPM from 5263251 PostgreSQL TPM  (error lines: 0)
+  02-afdoltob 1024 VU rampup=10m logged_in=1024: System achieved 2127493 NOPM from 4893172 PostgreSQL TPM  (error lines: 0)
+[07:59:02] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 03-pgolto /opt/g15-pg18-pgolto 2026-11-09T07:59:02Z
+[07:59:23] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m39.841s 
+server started
+[08:00:04] started /opt/g15-pg18-pgolto md5=4b0fa228ba8d
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 23308
+  pid 23308's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  4b0fa228ba8d08a884a224dfda0d48ab  /opt/g15-pg18-pgolto/bin/postgres
+  Cpus_allowed_list:	0-191
+  03-pgolto 32 VU rampup=2m logged_in=32: System achieved 644062 NOPM from 1482023 PostgreSQL TPM  (error lines: 0)
+  03-pgolto 64 VU rampup=2m logged_in=64: System achieved 1191293 NOPM from 2742192 PostgreSQL TPM  (error lines: 0)
+  03-pgolto 128 VU rampup=3m logged_in=128: System achieved 2013547 NOPM from 4635325 PostgreSQL TPM  (error lines: 0)
+  03-pgolto 256 VU rampup=4m logged_in=256: System achieved 2251364 NOPM from 5175026 PostgreSQL TPM  (error lines: 0)
+  03-pgolto 512 VU rampup=6m logged_in=512: System achieved 2294466 NOPM from 5287248 PostgreSQL TPM  (error lines: 0)
+  03-pgolto 1024 VU rampup=10m logged_in=1024: System achieved 2025651 NOPM from 4663438 PostgreSQL TPM  (error lines: 0)
+[08:46:00] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 04-pgoltob /opt/g15-pg18-pgoltob 2026-11-09T08:46:00Z
+[08:46:21] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m43.548s 
+server started
+[08:47:05] started /opt/g15-pg18-pgoltob md5=ce4deabc25a0
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 28175
+  pid 28175's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  ce4deabc25a0147004eab54f5f633fe5  /opt/g15-pg18-pgoltob/bin/postgres
+  Cpus_allowed_list:	0-191
+  04-pgoltob 32 VU rampup=2m logged_in=32: System achieved 649517 NOPM from 1494905 PostgreSQL TPM  (error lines: 0)
+  04-pgoltob 64 VU rampup=2m logged_in=64: System achieved 1237406 NOPM from 2848337 PostgreSQL TPM  (error lines: 0)
+  04-pgoltob 128 VU rampup=3m logged_in=128: System achieved 2331957 NOPM from 5367295 PostgreSQL TPM  (error lines: 0)
+  04-pgoltob 256 VU rampup=4m logged_in=256: System achieved 2280767 NOPM from 5241352 PostgreSQL TPM  (error lines: 0)
+  04-pgoltob 512 VU rampup=6m logged_in=512: System achieved 2254692 NOPM from 5185404 PostgreSQL TPM  (error lines: 0)
+  04-pgoltob 1024 VU rampup=10m logged_in=1024: System achieved 2095904 NOPM from 4817586 PostgreSQL TPM  (error lines: 0)
+[09:33:04] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 05-pgoltob /opt/g15-pg18-pgoltob 2026-11-09T09:33:04Z
+[09:33:25] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m39.913s 
+server started
+[09:34:06] started /opt/g15-pg18-pgoltob md5=ce4deabc25a0
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 33107
+  pid 33107's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  ce4deabc25a0147004eab54f5f633fe5  /opt/g15-pg18-pgoltob/bin/postgres
+  Cpus_allowed_list:	0-191
+  05-pgoltob 32 VU rampup=2m logged_in=32: System achieved 655754 NOPM from 1508701 PostgreSQL TPM  (error lines: 0)
+  05-pgoltob 64 VU rampup=2m logged_in=64: System achieved 1178881 NOPM from 2714797 PostgreSQL TPM  (error lines: 0)
+  05-pgoltob 128 VU rampup=3m logged_in=128: System achieved 2012416 NOPM from 4634602 PostgreSQL TPM  (error lines: 0)
+  05-pgoltob 256 VU rampup=4m logged_in=256: System achieved 2269971 NOPM from 5220578 PostgreSQL TPM  (error lines: 0)
+  05-pgoltob 512 VU rampup=6m logged_in=512: System achieved 2266811 NOPM from 5215315 PostgreSQL TPM  (error lines: 0)
+  05-pgoltob 1024 VU rampup=10m logged_in=1024: System achieved 2064232 NOPM from 4746737 PostgreSQL TPM  (error lines: 0)
+[10:20:03] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 06-pgolto /opt/g15-pg18-pgolto 2026-11-09T10:20:03Z
+[10:20:23] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m43.784s 
+server started
+[10:21:08] started /opt/g15-pg18-pgolto md5=4b0fa228ba8d
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 37927
+  pid 37927's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  4b0fa228ba8d08a884a224dfda0d48ab  /opt/g15-pg18-pgolto/bin/postgres
+  Cpus_allowed_list:	0-191
+  06-pgolto 32 VU rampup=2m logged_in=32: System achieved 665319 NOPM from 1531769 PostgreSQL TPM  (error lines: 0)
+  06-pgolto 64 VU rampup=2m logged_in=64: System achieved 1223731 NOPM from 2816750 PostgreSQL TPM  (error lines: 0)
+  06-pgolto 128 VU rampup=3m logged_in=128: System achieved 2328072 NOPM from 5356630 PostgreSQL TPM  (error lines: 0)
+  06-pgolto 256 VU rampup=4m logged_in=256: System achieved 2279141 NOPM from 5235905 PostgreSQL TPM  (error lines: 0)
+  06-pgolto 512 VU rampup=6m logged_in=512: System achieved 2248131 NOPM from 5172685 PostgreSQL TPM  (error lines: 0)
+  06-pgolto 1024 VU rampup=10m logged_in=1024: System achieved 2102285 NOPM from 4834023 PostgreSQL TPM  (error lines: 0)
+[11:07:06] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 07-afdoltob /opt/g15-pg18-afdoltob 2026-11-09T11:07:06Z
+[11:07:27] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m43.624s 
+server started
+[11:08:12] started /opt/g15-pg18-afdoltob md5=5d576b3db66e
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 42800
+  pid 42800's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  5d576b3db66e8457bc6c960841772db7  /opt/g15-pg18-afdoltob/bin/postgres
+  Cpus_allowed_list:	0-191
+  07-afdoltob 32 VU rampup=2m logged_in=32: System achieved 644962 NOPM from 1485399 PostgreSQL TPM  (error lines: 0)
+  07-afdoltob 64 VU rampup=2m logged_in=64: System achieved 1204132 NOPM from 2772105 PostgreSQL TPM  (error lines: 0)
+  07-afdoltob 128 VU rampup=3m logged_in=128: System achieved 2026990 NOPM from 4667096 PostgreSQL TPM  (error lines: 0)
+  07-afdoltob 256 VU rampup=4m logged_in=256: System achieved 2283607 NOPM from 5246517 PostgreSQL TPM  (error lines: 0)
+  07-afdoltob 512 VU rampup=6m logged_in=512: System achieved 2265403 NOPM from 5209090 PostgreSQL TPM  (error lines: 0)
+  07-afdoltob 1024 VU rampup=10m logged_in=1024: System achieved 2107907 NOPM from 4850654 PostgreSQL TPM  (error lines: 0)
+[11:54:09] stopped (fast) via /opt/g15-pg18-afdoltob
+=== 08-base /opt/g15-pg18-base 2026-11-09T11:54:10Z
+[11:54:31] restoring (interleave=all) from /mnt/ramdisk/pggolden real	0m39.700s 
+server started
+[11:55:11] started /opt/g15-pg18-base md5=8a6f660c783d
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 47626
+  pid 47626's current affinity list: 0-191
+  shared_buffers,huge_pages,max_wal,maxconn,sync_commit,jit: 192GB|on|96GB|1500|off|off
+  8a6f660c783dff61daccfd007d1f0c67  /opt/g15-pg18-base/bin/postgres
+  Cpus_allowed_list:	0-191
+  08-base 32 VU rampup=2m logged_in=32: System achieved 625384 NOPM from 1438214 PostgreSQL TPM  (error lines: 0)
+  08-base 64 VU rampup=2m logged_in=64: System achieved 1141927 NOPM from 2628491 PostgreSQL TPM  (error lines: 0)
+  08-base 128 VU rampup=3m logged_in=128: System achieved 1878449 NOPM from 4327854 PostgreSQL TPM  (error lines: 0)
+  08-base 256 VU rampup=4m logged_in=256: System achieved 2189752 NOPM from 5030426 PostgreSQL TPM  (error lines: 0)
+  08-base 512 VU rampup=6m logged_in=512: System achieved 2189505 NOPM from 5038538 PostgreSQL TPM  (error lines: 0)
+  08-base 1024 VU rampup=10m logged_in=1024: System achieved 2067812 NOPM from 4754029 PostgreSQL TPM  (error lines: 0)
+[12:41:08] stopped (fast) via /opt/g15-pg18-afdoltob
+PG-WB-ALL-DONE 2026-11-09T12:41:08Z

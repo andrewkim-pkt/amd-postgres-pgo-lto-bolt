@@ -1,0 +1,5 @@
+server started
+[06:25:59] started /opt/g15-pg18-base md5=8a6f660c783d
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 13609
+  pid 13609's current affinity list: 0-191

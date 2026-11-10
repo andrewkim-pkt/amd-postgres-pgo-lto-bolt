@@ -1,0 +1,37 @@
+# Build the @WH@ WH TPROC-C schema on @HOST@ (PostgreSQL). Placeholders filled by pg-ds-build.sh.
+# Written for this campaign: the published postgres-pgo-lto-bolt repo does not ship its HammerDB
+# templates. Build VU count is @BUILDVU@.
+dbset db pg
+dbset bm TPC-C
+
+diset connection pg_host @HOST@
+diset connection pg_port 5432
+
+diset tpcc pg_superuser ec2-user
+diset tpcc pg_superuserpass postgres
+diset tpcc pg_defaultdbase postgres
+diset tpcc pg_user ec2-user
+diset tpcc pg_pass postgres
+diset tpcc pg_dbase tpcc
+diset tpcc pg_tspace pg_default
+
+diset tpcc pg_count_ware @WH@
+diset tpcc pg_num_vu @BUILDVU@
+diset tpcc pg_partition false
+diset tpcc pg_vacuum true
+
+# MUST be set at SCHEMA BUILD time, not just at run time. pgoltp.tcl:32-33
+#   proc CreateStoredProcs { lda ora_compatible citus_compatible pg_storedprocs }
+#   if { $pg_storedprocs eq "true" } { ... }
+# gates whether the build creates CALL-able PROCEDUREs (the 33-arg form the driver issues) or
+# the plain 10-arg FUNCTIONs. Leave it unset here and the build makes functions while the driver
+# calls procedures, so every transaction fails with
+#   ERROR: procedure payment(integer,...) does not exist
+# and the run reports 0 NOPM -- with the vusers merely "FINISHED FAILED" and no other clue.
+diset tpcc pg_storedprocs true
+diset tpcc pg_oracompat false
+diset tpcc pg_cituscompat false
+
+puts "=== buildschema @WH@ WH with @BUILDVU@ VU on @HOST@"
+buildschema
+puts "=== SCHEMA-BUILD-COMPLETE"

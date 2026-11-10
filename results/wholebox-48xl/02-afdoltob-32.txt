@@ -1,0 +1,1708 @@
+2026-11-09T07:13:06Z HammerDB CLI v4.7
+2026-11-09T07:13:06Z Copyright (C) 2003-2023 Steve Shaw
+2026-11-09T07:13:06Z Type "help" for a list of commands
+2026-11-09T07:13:06Z Initialized SQLite on-disk database /tmp/hammer.DB using existing tables (2,195,456 KB)
+2026-11-09T07:13:06Z Database set to PostgreSQL
+2026-11-09T07:13:06Z Benchmark set to TPC-C for PostgreSQL
+2026-11-09T07:13:06Z Value 172.31.90.77 for connection:pg_host is the same as existing value 172.31.90.77, no change made
+2026-11-09T07:13:06Z Value 5432 for connection:pg_port is the same as existing value 5432, no change made
+2026-11-09T07:13:06Z Value ec2-user for tpcc:pg_superuser is the same as existing value ec2-user, no change made
+2026-11-09T07:13:06Z Value postgres for tpcc:pg_superuserpass is the same as existing value postgres, no change made
+2026-11-09T07:13:06Z Value postgres for tpcc:pg_defaultdbase is the same as existing value postgres, no change made
+2026-11-09T07:13:06Z Value ec2-user for tpcc:pg_user is the same as existing value ec2-user, no change made
+2026-11-09T07:13:06Z Value postgres for tpcc:pg_pass is the same as existing value postgres, no change made
+2026-11-09T07:13:06Z Value tpcc for tpcc:pg_dbase is the same as existing value tpcc, no change made
+2026-11-09T07:13:06Z Value timed for tpcc:pg_driver is the same as existing value timed, no change made
+2026-11-09T07:13:06Z Changed tpcc:pg_rampup from 10 to 2 for PostgreSQL
+2026-11-09T07:13:06Z Value 3 for tpcc:pg_duration is the same as existing value 3, no change made
+2026-11-09T07:13:06Z Value true for tpcc:pg_allwarehouse is the same as existing value true, no change made
+2026-11-09T07:13:06Z Value false for tpcc:pg_keyandthink is the same as existing value false, no change made
+2026-11-09T07:13:06Z Value true for tpcc:pg_storedprocs is the same as existing value true, no change made
+2026-11-09T07:13:06Z Value false for tpcc:pg_timeprofile is the same as existing value false, no change made
+2026-11-09T07:13:06Z Script loaded, Type "print script" to view
+2026-11-09T07:13:06Z 32 VU TEST
+2026-11-09T07:13:06Z Vuser 1 created MONITOR - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 2 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 3 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 4 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 5 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 6 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 7 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 8 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 9 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 10 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 11 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 12 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 13 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 14 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 15 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 16 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 17 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 18 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 19 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 20 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 21 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 22 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 23 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 24 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 25 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 26 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 27 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 28 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 29 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 30 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 31 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 32 created - WAIT IDLE
+2026-11-09T07:13:06Z Vuser 33 created - WAIT IDLE
+2026-11-09T07:13:06Z Logging activated
+2026-11-09T07:13:06Z to /tmp/hammerdb_6AF1728265FD03E213630353.log
+2026-11-09T07:13:06Z 33 Virtual Users Created with Monitor VU
+2026-11-09T07:13:06Z runtimer command has been deprecated and is not required for version v4.7
+2026-11-09T07:13:06Z Vuser 1:RUNNING
+2026-11-09T07:13:06Z Vuser 1:Beginning rampup time of 2 minutes
+2026-11-09T07:13:06Z Vuser 2:RUNNING
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=33 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=65 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=97 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=129 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=161 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=193 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=225 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=257 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=289 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=321 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=353 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=385 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=417 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=449 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=481 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=513 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=545 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=577 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=609 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=641 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=673 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=705 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=737 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=769 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=801 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=833 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=865 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=897 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=929 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=961 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=993 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1025 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1057 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1089 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1121 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1153 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1185 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1217 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1249 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1281 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1313 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1345 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1377 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1409 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1441 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1473 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:06Z Vuser 2:VU 2 : Assigning WID=1505 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:06Z Vuser 2:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:07Z Vuser 3:RUNNING
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=2 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=34 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=66 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=98 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=130 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=162 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=194 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=226 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=258 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=290 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=322 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=354 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=386 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=418 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=450 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=482 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=514 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=546 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=578 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=610 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=642 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=674 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=706 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=738 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=770 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=802 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=834 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=866 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=898 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=930 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=962 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=994 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1026 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1058 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1090 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1122 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1154 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1186 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1218 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1250 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1282 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1314 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1346 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1378 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1410 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1442 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1474 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:07Z Vuser 3:VU 3 : Assigning WID=1506 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:07Z Vuser 3:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:07Z Vuser 4:RUNNING
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=3 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=35 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=67 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=99 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=131 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=163 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=195 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=227 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=259 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=291 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=323 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=355 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=387 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=419 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=451 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=483 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=515 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=547 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=579 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=611 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=643 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=675 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=707 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=739 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=771 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=803 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=835 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=867 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=899 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=931 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=963 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=995 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1027 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1059 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1091 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1123 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1155 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1187 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1219 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1251 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1283 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1315 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1347 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1379 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1411 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1443 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1475 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:07Z Vuser 4:VU 4 : Assigning WID=1507 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:07Z Vuser 4:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:08Z Vuser 5:RUNNING
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=4 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=36 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=68 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=100 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=132 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=164 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=196 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=228 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=260 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=292 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=324 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=356 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=388 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=420 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=452 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=484 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=516 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=548 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=580 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=612 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=644 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=676 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=708 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=740 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=772 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=804 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=836 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=868 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=900 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=932 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=964 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=996 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1028 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1060 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1092 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1124 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1156 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1188 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1220 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1252 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1284 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1316 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1348 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1380 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1412 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1444 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1476 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:08Z Vuser 5:VU 5 : Assigning WID=1508 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:08Z Vuser 5:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:08Z Vuser 6:RUNNING
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=5 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=37 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=69 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=101 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=133 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=165 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=197 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=229 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=261 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=293 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=325 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=357 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=389 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=421 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=453 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=485 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=517 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=549 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=581 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=613 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=645 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=677 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=709 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=741 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=773 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=805 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=837 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=869 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=901 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=933 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=965 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=997 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1029 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1061 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1093 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1125 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1157 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1189 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1221 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1253 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1285 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1317 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1349 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1381 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1413 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1445 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1477 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:08Z Vuser 6:VU 6 : Assigning WID=1509 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:08Z Vuser 6:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:09Z Vuser 7:RUNNING
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=6 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=38 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=70 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=102 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=134 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=166 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=198 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=230 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=262 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=294 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=326 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=358 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=390 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=422 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=454 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=486 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=518 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=550 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=582 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=614 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=646 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=678 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=710 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=742 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=774 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=806 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=838 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=870 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=902 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=934 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=966 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=998 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1030 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1062 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1094 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1126 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1158 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1190 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1222 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1254 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1286 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1318 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1350 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1382 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1414 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1446 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1478 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:09Z Vuser 7:VU 7 : Assigning WID=1510 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:09Z Vuser 7:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:09Z Vuser 8:RUNNING
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=7 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=39 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=71 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=103 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=135 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=167 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=199 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=231 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=263 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=295 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=327 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=359 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=391 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=423 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=455 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=487 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=519 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=551 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=583 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=615 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=647 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=679 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=711 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=743 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=775 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=807 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=839 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=871 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=903 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=935 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=967 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=999 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1031 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1063 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1095 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1127 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1159 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1191 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1223 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1255 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1287 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1319 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1351 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1383 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1415 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1447 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1479 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:09Z Vuser 8:VU 8 : Assigning WID=1511 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:09Z Vuser 8:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:10Z Vuser 9:RUNNING
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=8 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=40 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=72 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=104 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=136 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=168 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=200 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=232 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=264 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=296 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=328 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=360 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=392 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=424 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=456 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=488 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=520 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=552 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=584 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=616 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=648 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=680 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=712 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=744 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=776 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=808 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=840 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=872 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=904 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=936 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=968 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1000 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1032 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1064 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1096 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1128 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1160 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1192 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1224 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1256 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1288 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1320 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1352 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1384 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1416 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1448 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1480 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:10Z Vuser 9:VU 9 : Assigning WID=1512 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:10Z Vuser 9:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:10Z Vuser 10:RUNNING
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=9 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=41 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=73 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=105 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=137 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=169 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=201 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=233 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=265 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=297 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=329 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=361 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=393 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=425 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=457 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=489 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=521 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=553 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=585 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=617 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=649 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=681 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=713 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=745 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=777 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=809 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=841 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=873 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=905 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=937 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=969 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1001 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1033 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1065 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1097 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1129 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1161 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1193 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1225 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1257 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1289 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1321 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1353 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1385 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1417 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1449 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1481 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:10Z Vuser 10:VU 10 : Assigning WID=1513 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:10Z Vuser 10:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:11Z Vuser 11:RUNNING
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=10 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=42 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=74 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=106 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=138 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=170 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=202 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=234 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=266 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=298 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=330 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=362 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=394 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=426 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=458 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=490 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=522 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=554 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=586 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=618 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=650 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=682 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=714 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=746 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=778 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=810 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=842 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=874 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=906 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=938 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=970 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1002 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1034 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1066 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1098 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1130 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1162 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1194 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1226 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1258 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1290 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1322 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1354 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1386 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1418 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1450 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1482 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:11Z Vuser 11:VU 11 : Assigning WID=1514 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:11Z Vuser 11:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:11Z Vuser 12:RUNNING
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=11 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=43 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=75 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=107 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=139 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=171 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=203 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=235 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=267 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=299 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=331 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=363 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=395 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=427 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=459 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=491 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=523 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=555 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=587 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=619 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=651 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=683 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=715 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=747 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=779 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=811 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=843 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=875 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=907 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=939 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=971 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1003 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1035 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1067 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1099 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1131 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1163 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1195 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1227 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1259 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1291 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1323 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1355 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1387 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1419 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1451 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1483 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:11Z Vuser 12:VU 12 : Assigning WID=1515 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:11Z Vuser 12:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:12Z Vuser 13:RUNNING
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=12 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=44 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=76 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=108 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=140 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=172 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=204 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=236 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=268 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=300 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=332 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=364 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=396 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=428 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=460 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=492 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=524 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=556 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=588 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=620 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=652 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=684 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=716 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=748 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=780 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=812 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=844 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=876 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=908 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=940 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=972 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1004 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1036 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1068 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1100 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1132 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1164 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1196 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1228 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1260 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1292 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1324 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1356 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1388 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1420 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1452 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1484 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:12Z Vuser 13:VU 13 : Assigning WID=1516 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:12Z Vuser 13:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:12Z Vuser 14:RUNNING
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=13 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=45 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=77 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=109 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=141 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=173 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=205 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=237 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=269 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=301 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=333 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=365 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=397 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=429 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=461 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=493 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=525 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=557 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=589 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=621 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=653 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=685 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=717 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=749 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=781 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=813 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=845 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=877 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=909 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=941 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=973 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1005 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1037 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1069 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1101 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1133 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1165 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1197 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1229 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1261 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1293 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1325 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1357 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1389 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1421 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1453 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1485 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:12Z Vuser 14:VU 14 : Assigning WID=1517 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:12Z Vuser 14:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:13Z Vuser 15:RUNNING
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=14 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=46 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=78 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=110 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=142 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=174 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=206 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=238 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=270 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=302 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=334 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=366 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=398 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=430 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=462 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=494 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=526 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=558 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=590 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=622 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=654 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=686 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=718 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=750 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=782 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=814 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=846 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=878 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=910 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=942 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=974 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1006 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1038 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1070 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1102 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1134 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1166 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1198 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1230 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1262 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1294 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1326 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1358 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1390 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1422 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1454 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1486 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:13Z Vuser 15:VU 15 : Assigning WID=1518 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:13Z Vuser 15:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:13Z Vuser 16:RUNNING
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=15 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=47 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=79 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=111 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=143 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=175 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=207 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=239 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=271 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=303 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=335 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=367 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=399 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=431 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=463 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=495 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=527 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=559 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=591 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=623 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=655 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=687 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=719 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=751 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=783 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=815 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=847 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=879 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=911 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=943 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=975 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1007 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1039 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1071 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1103 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1135 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1167 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1199 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1231 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1263 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1295 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1327 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1359 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1391 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1423 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1455 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1487 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:13Z Vuser 16:VU 16 : Assigning WID=1519 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:13Z Vuser 16:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:14Z Vuser 17:RUNNING
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=16 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=48 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=80 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=112 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=144 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=176 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=208 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=240 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=272 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=304 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=336 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=368 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=400 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=432 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=464 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=496 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=528 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=560 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=592 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=624 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=656 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=688 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=720 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=752 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=784 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=816 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=848 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=880 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=912 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=944 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=976 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1008 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1040 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1072 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1104 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1136 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1168 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1200 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1232 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1264 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1296 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1328 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1360 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1392 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1424 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1456 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1488 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:14Z Vuser 17:VU 17 : Assigning WID=1520 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:14Z Vuser 17:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:14Z Vuser 18:RUNNING
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=17 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=49 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=81 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=113 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=145 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=177 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=209 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=241 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=273 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=305 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=337 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=369 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=401 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=433 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=465 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=497 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=529 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=561 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=593 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=625 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=657 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=689 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=721 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=753 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=785 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=817 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=849 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=881 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=913 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=945 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=977 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1009 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1041 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1073 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1105 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1137 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1169 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1201 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1233 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1265 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1297 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1329 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1361 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1393 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1425 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1457 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1489 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:14Z Vuser 18:VU 18 : Assigning WID=1521 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:14Z Vuser 18:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:15Z Vuser 19:RUNNING
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=18 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=50 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=82 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=114 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=146 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=178 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=210 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=242 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=274 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=306 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=338 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=370 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=402 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=434 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=466 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=498 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=530 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=562 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=594 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=626 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=658 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=690 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=722 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=754 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=786 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=818 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=850 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=882 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=914 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=946 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=978 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1010 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1042 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1074 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1106 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1138 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1170 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1202 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1234 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1266 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1298 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1330 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1362 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1394 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1426 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1458 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1490 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:15Z Vuser 19:VU 19 : Assigning WID=1522 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:15Z Vuser 19:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:15Z Vuser 20:RUNNING
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=19 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=51 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=83 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=115 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=147 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=179 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=211 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=243 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=275 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=307 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=339 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=371 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=403 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=435 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=467 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=499 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=531 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=563 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=595 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=627 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=659 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=691 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=723 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=755 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=787 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=819 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=851 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=883 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=915 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=947 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=979 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1011 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1043 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1075 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1107 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1139 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1171 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1203 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1235 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1267 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1299 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1331 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1363 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1395 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1427 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1459 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1491 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:15Z Vuser 20:VU 20 : Assigning WID=1523 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:15Z Vuser 20:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:16Z Vuser 21:RUNNING
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=20 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=52 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=84 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=116 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=148 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=180 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=212 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=244 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=276 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=308 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=340 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=372 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=404 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=436 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=468 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=500 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=532 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=564 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=596 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=628 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=660 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=692 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=724 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=756 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=788 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=820 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=852 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=884 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=916 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=948 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=980 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1012 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1044 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1076 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1108 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1140 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1172 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1204 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1236 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1268 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1300 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1332 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1364 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1396 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1428 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1460 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1492 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:16Z Vuser 21:VU 21 : Assigning WID=1524 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:16Z Vuser 21:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:16Z Vuser 22:RUNNING
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=21 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=53 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=85 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=117 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=149 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=181 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=213 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=245 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=277 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=309 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=341 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=373 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=405 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=437 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=469 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=501 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=533 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=565 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=597 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=629 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=661 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=693 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=725 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=757 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=789 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=821 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=853 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=885 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=917 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=949 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=981 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1013 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1045 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1077 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1109 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1141 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1173 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1205 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1237 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1269 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1301 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1333 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1365 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1397 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1429 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1461 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1493 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:16Z Vuser 22:VU 22 : Assigning WID=1525 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:16Z Vuser 22:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:17Z Vuser 23:RUNNING
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=22 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=54 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=86 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=118 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=150 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=182 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=214 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=246 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=278 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=310 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=342 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=374 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=406 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=438 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=470 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=502 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=534 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=566 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=598 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=630 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=662 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=694 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=726 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=758 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=790 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=822 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=854 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=886 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=918 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=950 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=982 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1014 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1046 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1078 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1110 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1142 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1174 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1206 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1238 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1270 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1302 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1334 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1366 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1398 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1430 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1462 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1494 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:17Z Vuser 23:VU 23 : Assigning WID=1526 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:17Z Vuser 23:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:17Z Vuser 24:RUNNING
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=23 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=55 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=87 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=119 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=151 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=183 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=215 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=247 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=279 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=311 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=343 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=375 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=407 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=439 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=471 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=503 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=535 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=567 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=599 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=631 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=663 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=695 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=727 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=759 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=791 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=823 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=855 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=887 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=919 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=951 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=983 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1015 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1047 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1079 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1111 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1143 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1175 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1207 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1239 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1271 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1303 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1335 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1367 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1399 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1431 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1463 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1495 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:17Z Vuser 24:VU 24 : Assigning WID=1527 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:17Z Vuser 24:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:18Z Vuser 25:RUNNING
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=24 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=56 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=88 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=120 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=152 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=184 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=216 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=248 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=280 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=312 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=344 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=376 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=408 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=440 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=472 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=504 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=536 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=568 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=600 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=632 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=664 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=696 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=728 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=760 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=792 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=824 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=856 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=888 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=920 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=952 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=984 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1016 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1048 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1080 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1112 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1144 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1176 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1208 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1240 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1272 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1304 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1336 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1368 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1400 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1432 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1464 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1496 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:18Z Vuser 25:VU 25 : Assigning WID=1528 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:18Z Vuser 25:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:18Z Vuser 26:RUNNING
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=25 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=57 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=89 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=121 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=153 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=185 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=217 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=249 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=281 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=313 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=345 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=377 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=409 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=441 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=473 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=505 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=537 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=569 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=601 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=633 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=665 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=697 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=729 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=761 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=793 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=825 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=857 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=889 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=921 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=953 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=985 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1017 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1049 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1081 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1113 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1145 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1177 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1209 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1241 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1273 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1305 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1337 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1369 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1401 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1433 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1465 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1497 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:18Z Vuser 26:VU 26 : Assigning WID=1529 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:18Z Vuser 26:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:19Z Vuser 27:RUNNING
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=26 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=58 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=90 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=122 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=154 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=186 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=218 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=250 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=282 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=314 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=346 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=378 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=410 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=442 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=474 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=506 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=538 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=570 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=602 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=634 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=666 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=698 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=730 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=762 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=794 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=826 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=858 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=890 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=922 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=954 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=986 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1018 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1050 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1082 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1114 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1146 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1178 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1210 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1242 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1274 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1306 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1338 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1370 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1402 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1434 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1466 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1498 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:19Z Vuser 27:VU 27 : Assigning WID=1530 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:19Z Vuser 27:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:19Z Vuser 28:RUNNING
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=27 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=59 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=91 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=123 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=155 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=187 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=219 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=251 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=283 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=315 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=347 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=379 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=411 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=443 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=475 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=507 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=539 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=571 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=603 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=635 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=667 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=699 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=731 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=763 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=795 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=827 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=859 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=891 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=923 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=955 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=987 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1019 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1051 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1083 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1115 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1147 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1179 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1211 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1243 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1275 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1307 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1339 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1371 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1403 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1435 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1467 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1499 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:19Z Vuser 28:VU 28 : Assigning WID=1531 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:19Z Vuser 28:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:20Z Vuser 29:RUNNING
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=28 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=60 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=92 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=124 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=156 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=188 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=220 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=252 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=284 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=316 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=348 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=380 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=412 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=444 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=476 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=508 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=540 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=572 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=604 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=636 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=668 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=700 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=732 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=764 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=796 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=828 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=860 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=892 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=924 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=956 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=988 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1020 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1052 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1084 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1116 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1148 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1180 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1212 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1244 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1276 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1308 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1340 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1372 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1404 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1436 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1468 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1500 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:20Z Vuser 29:VU 29 : Assigning WID=1532 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:20Z Vuser 29:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:20Z Vuser 30:RUNNING
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=29 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=61 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=93 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=125 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=157 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=189 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=221 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=253 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=285 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=317 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=349 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=381 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=413 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=445 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=477 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=509 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=541 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=573 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=605 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=637 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=669 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=701 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=733 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=765 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=797 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=829 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=861 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=893 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=925 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=957 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=989 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1021 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1053 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1085 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1117 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1149 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1181 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1213 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1245 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1277 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1309 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1341 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1373 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1405 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1437 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1469 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1501 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:20Z Vuser 30:VU 30 : Assigning WID=1533 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:20Z Vuser 30:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:21Z Vuser 31:RUNNING
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=30 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=62 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=94 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=126 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=158 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=190 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=222 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=254 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=286 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=318 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=350 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=382 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=414 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=446 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=478 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=510 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=542 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=574 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=606 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=638 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=670 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=702 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=734 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=766 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=798 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=830 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=862 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=894 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=926 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=958 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=990 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1022 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1054 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1086 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1118 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1150 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1182 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1214 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1246 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1278 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1310 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1342 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1374 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1406 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1438 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1470 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1502 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:21Z Vuser 31:VU 31 : Assigning WID=1534 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:21Z Vuser 31:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:21Z Vuser 32:RUNNING
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=31 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=63 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=95 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=127 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=159 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=191 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=223 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=255 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=287 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=319 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=351 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=383 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=415 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=447 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=479 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=511 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=543 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=575 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=607 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=639 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=671 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=703 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=735 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=767 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=799 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=831 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=863 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=895 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=927 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=959 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=991 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1023 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1055 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1087 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1119 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1151 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1183 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1215 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1247 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1279 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1311 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1343 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1375 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1407 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1439 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1471 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1503 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:21Z Vuser 32:VU 32 : Assigning WID=1535 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:21Z Vuser 32:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:13:22Z Vuser 33:RUNNING
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=32 based on VU count 32, Warehouses = 1536 (1 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=64 based on VU count 32, Warehouses = 1536 (2 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=96 based on VU count 32, Warehouses = 1536 (3 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=128 based on VU count 32, Warehouses = 1536 (4 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=160 based on VU count 32, Warehouses = 1536 (5 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=192 based on VU count 32, Warehouses = 1536 (6 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=224 based on VU count 32, Warehouses = 1536 (7 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=256 based on VU count 32, Warehouses = 1536 (8 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=288 based on VU count 32, Warehouses = 1536 (9 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=320 based on VU count 32, Warehouses = 1536 (10 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=352 based on VU count 32, Warehouses = 1536 (11 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=384 based on VU count 32, Warehouses = 1536 (12 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=416 based on VU count 32, Warehouses = 1536 (13 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=448 based on VU count 32, Warehouses = 1536 (14 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=480 based on VU count 32, Warehouses = 1536 (15 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=512 based on VU count 32, Warehouses = 1536 (16 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=544 based on VU count 32, Warehouses = 1536 (17 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=576 based on VU count 32, Warehouses = 1536 (18 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=608 based on VU count 32, Warehouses = 1536 (19 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=640 based on VU count 32, Warehouses = 1536 (20 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=672 based on VU count 32, Warehouses = 1536 (21 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=704 based on VU count 32, Warehouses = 1536 (22 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=736 based on VU count 32, Warehouses = 1536 (23 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=768 based on VU count 32, Warehouses = 1536 (24 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=800 based on VU count 32, Warehouses = 1536 (25 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=832 based on VU count 32, Warehouses = 1536 (26 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=864 based on VU count 32, Warehouses = 1536 (27 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=896 based on VU count 32, Warehouses = 1536 (28 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=928 based on VU count 32, Warehouses = 1536 (29 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=960 based on VU count 32, Warehouses = 1536 (30 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=992 based on VU count 32, Warehouses = 1536 (31 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1024 based on VU count 32, Warehouses = 1536 (32 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1056 based on VU count 32, Warehouses = 1536 (33 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1088 based on VU count 32, Warehouses = 1536 (34 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1120 based on VU count 32, Warehouses = 1536 (35 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1152 based on VU count 32, Warehouses = 1536 (36 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1184 based on VU count 32, Warehouses = 1536 (37 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1216 based on VU count 32, Warehouses = 1536 (38 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1248 based on VU count 32, Warehouses = 1536 (39 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1280 based on VU count 32, Warehouses = 1536 (40 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1312 based on VU count 32, Warehouses = 1536 (41 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1344 based on VU count 32, Warehouses = 1536 (42 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1376 based on VU count 32, Warehouses = 1536 (43 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1408 based on VU count 32, Warehouses = 1536 (44 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1440 based on VU count 32, Warehouses = 1536 (45 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1472 based on VU count 32, Warehouses = 1536 (46 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1504 based on VU count 32, Warehouses = 1536 (47 out of 48)
+2026-11-09T07:13:22Z Vuser 33:VU 33 : Assigning WID=1536 based on VU count 32, Warehouses = 1536 (48 out of 48)
+2026-11-09T07:13:22Z Vuser 33:Processing 10000000 transactions with output suppressed...
+2026-11-09T07:14:06Z Vuser 1:Rampup 1 minutes complete ...
+2026-11-09T07:15:06Z Vuser 1:Rampup 2 minutes complete ...
+2026-11-09T07:15:06Z Vuser 1:Rampup complete, Taking start Transaction Count.
+2026-11-09T07:15:06Z Vuser 1:Timing test period of 3 in minutes
+2026-11-09T07:16:06Z Vuser 1:1 ...,
+2026-11-09T07:17:06Z Vuser 1:2 ...,
+2026-11-09T07:18:06Z Vuser 1:3 ...,
+2026-11-09T07:18:06Z Vuser 1:Test complete, Taking end Transaction Count.
+2026-11-09T07:18:06Z Vuser 1:32 Active Virtual Users configured
+2026-11-09T07:18:06Z Vuser 1:TEST RESULT : System achieved 687914 NOPM from 1582242 PostgreSQL TPM
+2026-11-09T07:18:06Z Vuser 1:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 12:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 20:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 15:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 9:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 28:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 8:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 10:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 33:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 26:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 25:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 13:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 16:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 31:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 18:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 32:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 23:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 29:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 11:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 4:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 24:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 14:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 17:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 3:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 30:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 5:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 19:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 21:FINISHED SUCCESS
+2026-11-09T07:18:06Z Vuser 6:FINISHED SUCCESS
+2026-11-09T07:18:07Z Vuser 27:FINISHED SUCCESS
+2026-11-09T07:18:07Z Vuser 2:FINISHED SUCCESS
+2026-11-09T07:18:07Z Vuser 22:FINISHED SUCCESS
+2026-11-09T07:18:07Z Vuser 7:FINISHED SUCCESS
+2026-11-09T07:18:07Z ALL VIRTUAL USERS COMPLETE
+2026-11-09T07:18:08Z vudestroy success
+2026-11-09T07:18:08Z POINT COMPLETE

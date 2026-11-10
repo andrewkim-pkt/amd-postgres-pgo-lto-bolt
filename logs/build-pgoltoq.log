@@ -1,0 +1,75 @@
+=== pg-build pgoltoq 2026-11-09T01:38:36Z
+    prefix=/opt/g15-pg18-pgoltoq
+    src=/home/ec2-user/g15/pgsrc-pgo (reuse=1)
+    CFLAGS=-O3 -march=native -mtune=native -fprofile-use -fprofile-correction -fprofile-partial-training -Wno-missing-profile -flto=96 -ffat-lto-objects -g
+    LDFLAGS=-flto=96 -ffat-lto-objects -Wl,-q
+    XLOGLOCKS=<stock 8>
+gcc (GCC) 15.2.0
+    .gcda files found in the tree: 941
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/backend/postgres
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/initdb/initdb
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_amcheck/pg_amcheck
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_archivecleanup/pg_archivecleanup
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_basebackup/pg_receivewal
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_basebackup/pg_recvlogical
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_basebackup/pg_createsubscriber
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_basebackup/pg_basebackup
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_checksums/pg_checksums
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_combinebackup/pg_combinebackup
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_config/pg_config
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_controldata/pg_controldata
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_ctl/pg_ctl
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_dump/pg_restore
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_dump/pg_dumpall
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_dump/pg_dump
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_resetwal/pg_resetwal
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_rewind/pg_rewind
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_test_fsync/pg_test_fsync
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_test_timing/pg_test_timing
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_upgrade/pg_upgrade
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_verifybackup/pg_verifybackup
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_waldump/pg_waldump
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pg_walsummary/pg_walsummary
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/pgbench/pgbench
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/psql/psql
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/dropdb
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/dropuser
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/pg_isready
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/createdb
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/clusterdb
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/createuser
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/reindexdb
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/bin/scripts/vacuumdb
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/interfaces/ecpg/preproc/ecpg
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/test/isolation/pg_isolation_regress
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/test/isolation/isolationtester
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/test/regress/pg_regress
+        relink forced: /home/ec2-user/g15/pgsrc-pgo/src/timezone/zic
+    .gcda still present after cleaning: 941
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wcast-function-type -Wshadow=compatible-local -Wformat-security -Wmissing-variable-declarations -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -O3 -march=native -mtune=native -fprofile-use -fprofile-correction -fprofile-partial-training -Wno-missing-profile -flto=96 -ffat-lto-objects -g
+CFLAGS_SL = -fPIC
+CFLAGS_SL_MODULE =  -fvisibility=hidden
+CFLAGS_UNROLL_LOOPS =  -funroll-loops
+--- gates for pgoltoq
+-rwxr-xr-x. 1 root root 170565928 Nov  9 01:39 /opt/g15-pg18-pgoltoq/bin/postgres
+postgres (PostgreSQL) 18.3
+    source rev/tree     : 62d6c7d3df eacca3d098ca35d9cbc7705a290583135faa3b79  (REL_18_3 from /home/ec2-user/postgres)
+    md5                 : 2761fff0c993
+    .debug_info        : 1
+    .debug_line        : 1
+    .rela.text         : 1
+    .text bytes        : 9261762
+    -g in build log    : 1370
+    auto-profile in log: 0
+    profile-use in log : 1370
+    profile-gen in log : 0
+    lto in log         : 1370
+    WAL insert locks   : NUM_XLOGINSERT_LOCKS  8
+    missing-profile warns: 0
+    not-bolted         : OK
+    no-instrumentation : OK
+    prefix clean       : OK (no gcov syms anywhere in /opt/g15-pg18-pgoltoq)
+    flag -fprofile-use: OK (1370 lines)
+    flag -flto: OK (1370 lines)
+    smoke              : OK (rows=1000)
+=== pg-build pgoltoq done 2026-11-09T01:39:21Z

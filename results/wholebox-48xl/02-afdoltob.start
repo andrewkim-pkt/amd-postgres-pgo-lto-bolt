@@ -1,0 +1,5 @@
+server started
+[07:13:04] started /opt/g15-pg18-afdoltob md5=5d576b3db66e
+192GB|on|1500|PostgreSQL 18.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 15.2.0, 64-bit
+  postmaster pid 18488
+  pid 18488's current affinity list: 0-191

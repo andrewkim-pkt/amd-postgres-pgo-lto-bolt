@@ -1,0 +1,34 @@
+=== pg-build afdoltoq 2026-11-09T01:53:49Z
+    prefix=/opt/g15-pg18-afdoltoq
+    src=/home/ec2-user/g15/pgsrc-afdoltoq (reuse=0)
+    CFLAGS=-O3 -march=native -mtune=native -flto=96 -ffat-lto-objects -g -fno-reorder-blocks-and-partition -fauto-profile=/home/ec2-user/g15/prof/pg18-g15-hammerdb.afdo
+    LDFLAGS=-flto=96 -ffat-lto-objects -Wl,-q -fauto-profile=/home/ec2-user/g15/prof/pg18-g15-hammerdb.afdo -fno-reorder-blocks-and-partition
+    XLOGLOCKS=<stock 8>
+gcc (GCC) 15.2.0
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wcast-function-type -Wshadow=compatible-local -Wformat-security -Wmissing-variable-declarations -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -O3 -march=native -mtune=native -flto=96 -ffat-lto-objects -g -fno-reorder-blocks-and-partition -fauto-profile=/home/ec2-user/g15/prof/pg18-g15-hammerdb.afdo
+CFLAGS_SL = -fPIC
+CFLAGS_SL_MODULE =  -fvisibility=hidden
+CFLAGS_UNROLL_LOOPS =  -funroll-loops
+--- gates for afdoltoq
+-rwxr-xr-x. 1 root root 162391840 Nov  9 01:54 /opt/g15-pg18-afdoltoq/bin/postgres
+postgres (PostgreSQL) 18.3
+    source rev/tree     : 62d6c7d3df eacca3d098ca35d9cbc7705a290583135faa3b79  (REL_18_3 from /home/ec2-user/postgres)
+    md5                 : 83e202e54d32
+    .debug_info        : 1
+    .debug_line        : 1
+    .rela.text         : 1
+    .text bytes        : 9110322
+    -g in build log    : 1370
+    auto-profile in log: 1370
+    profile-use in log : 0
+    profile-gen in log : 0
+    lto in log         : 1370
+    WAL insert locks   : NUM_XLOGINSERT_LOCKS  8
+    missing-profile warns: 0
+    not-bolted         : OK
+    no-instrumentation : OK
+    prefix clean       : OK (no gcov syms anywhere in /opt/g15-pg18-afdoltoq)
+    flag -flto: OK (1370 lines)
+    flag -fauto-profile on compile lines: OK (1298 lines)
+    smoke              : OK (rows=1000)
+=== pg-build afdoltoq done 2026-11-09T01:54:43Z
