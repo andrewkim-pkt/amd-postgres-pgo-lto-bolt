@@ -15,7 +15,7 @@ convert the saving into. Section 4 has the detail.
 Intel counterpart for comparison:
 [`andrewkim-pkt/postgres-pgo-lto-bolt`](https://github.com/andrewkim-pkt/postgres-pgo-lto-bolt)
 (its gcc 15.2.0 leg; the gcc 14.2.1 data there is a different campaign and is not compared here).
-The MySQL leg on this same AMD machine is in [`../`](../).
+The MySQL leg on this same AMD machine is in [`andrewkim-pkt/amd-mysql-pgo-lto-bolt`](https://github.com/andrewkim-pkt/amd-mysql-pgo-lto-bolt).
 
 ---
 
