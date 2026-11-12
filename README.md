@@ -461,3 +461,11 @@ Every transaction fails, the run reports **0 NOPM**, and the only visible sympto
 
 Gate on `prokind='p'` / `pronargs=33` **and** on training NOPM before building anything from a
 profile.
+
+---
+
+## Cross-architecture comparison
+
+[`COMPARISON.md`](COMPARISON.md) sets this leg against the other two PostgreSQL legs of this
+campaign (Intel / AMD / Graviton) on identical PostgreSQL 18.3 + gcc 15.2.0 builds and the same
+1,536 warehouse HammerDB TPROC-C workload. The same file is in all three repositories.
